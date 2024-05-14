@@ -24,12 +24,12 @@ public class Bot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "Benswordbot";
+        return "YourUserName";
     }
 
     @Override
     public String getBotToken() {
-        return "7149506396:AAFXsHb7ulhrOEkTIb-S8z20wXO8N-SufH0";
+        return "YourBotToken";
     }
 
     public void sendText(Long who, String what) {
